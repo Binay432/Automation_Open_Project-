@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    // "baseUrl": ".",
+    "paths": {
+      "@pages/*":    ["./pages/*"],
+      "@fixtures/*": ["./fixtures/*"],
+      "@utils/*":    ["./utils/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
+
+// baseurl error solution as baseUrl is no longer supported by ts 7 
+
+// "paths": {
+//   // add ./src from baseUrl
+//   "@app/*": ["./src/app/*"],
+//   "@lib/*": ["./src/lib/*"]
+// }

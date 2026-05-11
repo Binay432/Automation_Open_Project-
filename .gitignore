@@ -1,8 +1,27 @@
 
-# Playwright
+# Dependecies
 node_modules/
+
+# Playwright
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+*.zip
+
+# Environment
+
+.env
+.env.local
+
+# Typescript 
+dist/
+*.js.map
+
+# OS 
+.DS_Store
+
+# Editor
+.vscode/
+
